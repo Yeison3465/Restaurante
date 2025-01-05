@@ -4,7 +4,7 @@ export const Entrada = () => {
     const { Onlogin, Codigo, setCodigo, Error } = Validacion();
 
     return (
-        <div className="bg-[url('src/Assets/p22.jpeg')] bg-cover bg-center h-screen w-full flex justify-center items-center">
+        <div className="bg-[url('/assets/p22.jpeg')] bg-cover bg-center h-screen w-full flex justify-center items-center">
             <div className="bg-white p-10 rounded-lg max-w-96 h-auto border-2 border-black shadow-xl">
                 <div>
                     <h1 className="text-black text-xl text-center">
